@@ -1,0 +1,29 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated artefacts
+examples/figures/
+*.png
+!docs/*.png
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+
+# Local history-build helpers (not part of the library)
+.history/
+build_history.sh
+build_history.ps1
+
+# Setup notes (local only)
+SETUP_GITHUB.md
